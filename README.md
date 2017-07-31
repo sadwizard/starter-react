@@ -8,5 +8,5 @@
 
 ## Модули
 **react-router** 
-**redux** 
+**react-redux** 
 **sass** 

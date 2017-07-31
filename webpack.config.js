@@ -9,15 +9,15 @@ module.exports= {
 	module: {
 		rules: [
 			{
-		      test: /\.js$/,
-		      exclude: /(node_modules|bower_components)/,
-		      use: {
-		        loader: 'babel-loader',
-		        options: {
-		          presets: ['env', 'react', 'es2015']
-		        }
-		      }
-		    },
+			  test: /\.js$/,
+			  exclude: /(node_modules|bower_components)/,
+			  use: {
+				loader: 'babel-loader',
+				options: {
+				  presets: ['env', 'react', 'es2015']
+				}
+			  }
+			},
 			{
 				test: /\.sass$/,
 				use: [
@@ -33,6 +33,7 @@ module.exports= {
 	devServer: {
 	  contentBase: path.join(__dirname, "app"),
 	  compress: true,
-	  port: 9000
+	  historyApiFallback: true,
+	  port: 8080
 	}
 };
