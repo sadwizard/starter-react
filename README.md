@@ -1,12 +1,18 @@
 # starter-react
 
-## Установка
-**npm install**  
+## Install
+**npm install**
 
-## Команды
-**npm run serve** - запускает локальный сервер
+## Commands
+**npm run serve** - start local dev server
 
-## Модули
-**react-router** 
-**react-redux** 
-**sass** 
+## requirements
+node 11.6.0
+npm 6.5.0
+
+## Modules
+- react-router
+- react-redux
+- sass
+- lodash
+- immutable
